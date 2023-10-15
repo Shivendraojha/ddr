@@ -39,7 +39,7 @@
 }
  
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
     #data-table {
          
         margin-bottom: 20px;
