@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRR Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+
+    <table id="data-table">
+        <tr>
+            <th>ID</th>
+            <th>Start-Date</th>
+            <th>End-Date</th>
+            <th>Month</th>
+            <th>Excluded-Dates</th>
+            <th>Total-Days</th>
+            <th>Lead-Count</th>
+            <th>Expected-DDR</th>
+        </tr>
+        <tr>
+            <td><input type="text" id="input-column-1" placeholder="ID"></td>
+            <td><input type="date" id="input-column-2" placeholder="Start-Date"></td>
+            <td><input type="date" id="input-column-3"></td>
+            <td>Month </td>
+            <td><input type="dates" id="input-column-5" placeholder="YYYY-MM-DD"></td>
+            <td>No. of days</td>
+            <td><input type="text" id="input-column-7" placeholder="Lead-Count"></td>
+            <td>Expected DDR</td>
+        </tr>
+       
+   
+</table>
+<button id="submit-btn" onclick="run()">Submit</button><table> 
+    
+    
+    
+    <div id="output"></div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
